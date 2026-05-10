@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UL LPI</title>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+    <!-- HTMLのhead内にこれを書く -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- タイトル -->
+    <h1>Ultrasound Low Polygon Image</h1>
+
+    <model-viewer 
+        src="images/Aplio 3D_keyframe.glb" 
+        ios-src="images/Aplio 3D_keyframe.usdz"
+        ar ar-modes="webxr scene-viewer quick-look"
+        auto-rotate camera-controls 
+        autoplay
+        loading="eager">
+        <div slot="poster" style="display: flex; justify-content: center; align-items: center; height: 100%;">
+            <p>3Dモデルを読み込み中...</p>
+        </div>
+    </model-viewer>
+
+</body>
+</html>
