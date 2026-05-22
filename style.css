@@ -94,3 +94,10 @@ model-viewer {
         font-size: 10px; /* スマホでは文字を少し小さくして収める */
     }
 }
+
+/* フッター */
+footer {
+    margin-top: 30px;
+    font-size: 0.8rem;
+    color: #999;
+}
